@@ -1,0 +1,67 @@
+.contanier{
+	background-color: #f8f8fd;
+	margin-top: .5em;
+	box-shadow: $bg-shadow;
+	position: absolute;
+	top: 0;
+	left: 25%;
+	right: 25%;
+	article.content{
+		margin-top: .7em;
+		.col-part{
+			-webkit-columns: 20em 2;
+			-moz-columns: 20em 2;
+			-o-columns: 20em 2;
+			columns: 20em 2;
+			-webkit-column-gap: 10px;
+			-moz-column-gap: 10px;
+			-o-column-gap: 10px;
+			column-gap: 10px;
+		}
+		@mixin border-left($clr){
+			border-left: .2em solid $clr;
+		}
+		@mixin title-bg($bgclr){
+			color: #fff;
+			background-color: $bgclr;
+			margin-left: -0.5em;
+			padding-left: 0.5em;
+		}
+		section {
+			margin: 1em 0 1em 0;
+			padding-left: .5em;
+		}
+		section.edu{
+			@include border-left(#3366CC);
+		}
+		section.exp{
+			@include border-left(#FF6600);
+			.project-item{
+				h3.time-line{
+					@include title-bg(#FF6600)
+					time.work-time{
+						float: right;
+						padding-right: 0.5em;
+					}
+				}
+			}
+		}
+		section.skills{
+			@include border-left(#FF3300);
+			.skills-item{
+				dl{
+					dt{
+						@include title-bg(#FF3300)
+					}
+				}
+			}
+		}
+	}
+	.col{
+		float: left;
+	}
+	.col-6{
+		width: 50%;
+		padding-left: .7em;
+	}
+}

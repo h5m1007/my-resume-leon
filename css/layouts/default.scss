@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: "Source Han Sans CN";
+	src: url("../font/NotoSansHans-Thin-Windows.otf");
+}
+
+body{
+	font-family: "Source Han Sans CN", "Microsoft YaHei", Arial, sans-serif;
+	font-size: 20px;
+	color: #333;
+	background: url(../images/bg_cover.jpg);
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+ul{
+	li{
+		list-style-type: none;
+	}
+}
+
+dl{
+	dd{
+		list-style-type: none;
+	}
+}
+
+strong{
+	font-weight: bolder;
+	text-shadow: .05em 0 0 #000;
+    padding: 0 .3em;
+}

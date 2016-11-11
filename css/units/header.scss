@@ -1,0 +1,36 @@
+header{
+	color: #fff;
+	padding: 1.5em;
+	position: relative;
+	background-color: $header-lightClr;
+	&:after{
+		height: 0;
+		content: '.';
+		display: block;
+		visibility: hidden;
+		clear: both;
+	}
+	address{
+		font-style: normal;
+		float: right;
+		text-align: left;
+		line-height: 1.5em;
+		margin: .5em 0;
+		ul{
+			li{
+				a{
+					margin-left: 0.2em;
+				}
+			}
+		}
+	}
+	section{
+
+		span{
+			font-size: 4em;
+		}
+		p{
+			
+		}
+	}
+}

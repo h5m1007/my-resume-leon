@@ -1,0 +1,169 @@
+{
+	"name": "leon resume",
+	"extInfos": {
+		"fa-code": "源代码",
+		"fa-file-pdf-o": "PDF版简历",
+		"fa-github": "github",
+		"fa-book": "读书单"
+	},
+	"contactInfos": {
+		"fa-envelope": "15521278180@163.com",
+		"fa-weixin": "h5m1007",
+		"fa-github-square": "https://github.com/h5m1007",
+		"fa-git-square": "https://h5m1007.github.io/"
+	},
+	"eduInfos": [
+		{
+			"time": "2013 ~ 2015",
+			"name": "彭智扬",
+			"prizes": [
+				"获得 **二等奖学金**两次、**三等奖学金**一次",
+				"获得2011-2012学年院级“三好学生”、“优秀共青团员”称号",
+				"获得2012-2013学年度系级“优秀实习生”称号",
+				"被评为2013届校级 **优秀毕业生**"
+			]
+		}
+	],
+	"workInfos": [
+		{
+			"firm": "广州奔步电脑有限公司",
+			"time": "2014.12 ~ 2015.10",
+			"job": "web前端工程师",
+			"exp_desc": [
+				"妙宴购物网站电商",
+				"基于原生Javascript与`Bootstrap`实现前端组件及数据交互",
+				"`Ajax` 异步调用API数据",
+				"canon微网站电商",
+				"运营在微信平台",
+				"基于`jQuery`的Js框架与`Foundation`的Css框架构建前端架构",
+				"辅助工具选择`Less`预处理和`jTemplate`"
+			]
+		},
+		{
+			"firm": "广州Mtel八达网有限公司",
+			"time": "2015.12 ~ 2016.11",
+			"job": "web前端工程师",
+			"exp_desc": [
+				"MCL电影网",
+				"`Angular`与`jQ`实现前端的模块组件化",
+				"`Anguler-ui-router`实现路由控制  ",
+				"`Require`实现按需加载`lazy-load`",
+				"GICL官网",
+				"`JQuery`实现前端交互，`Bootstrap`实现前端响应式布局",
+				"辅助工具选择`Less`预处理负责css优化和模块化",
+				"后期`angular`重构部分模块",
+				"`Hybird App` 最终由`phonegap`打包项目"
+			]
+		},
+		{
+			"firm": "个人项目",
+			"job": "Resume Generator",
+			"exp_desc": [
+				"在线简历生成器",
+				"`Gulp`自动化构建该项目",
+				"数据由`JSON`读取，`Jade`模版引擎创建HTML模块",
+				"`Sass`预处理器负责样式优化及组件化",
+				"项目托管至`Github`"
+			]
+		},
+		{
+			"firm": "个人项目",
+			"job": "美剧资料App",
+			"exp_desc": [
+				"Angular负责前端数据交互",
+				"Angular-ui-router负责路由控制",
+				"Foundation框架作为Css构建",
+				"Less预处理器负责Css优化及模块化",
+				"数据来源选至豆瓣Api",
+				"Hybird App，phonegap打包项目",
+				"托管至Github"
+			]
+		},
+		{
+			"firm": "个人项目",
+			"job": "React组件库",
+			"exp_desc": [
+				"`ReactDOM` 前端数据交互",
+				"`Redux` 动态数据管理",
+				"`Node npm`  依赖包管理",
+				"`Webpack` 作为架手架构建项目"
+			]
+		},
+		{
+			"firm": "个人项目",
+			"job": "小型DOM类库",
+			"exp_desc": [
+				"简单在线笔记App",
+				"用途：主要用于自己技术文档记录",
+				"`React`框架和Webpack作为构建工具",
+				"后台使用`Nodejs`和`MongoDB`"
+			]
+		},
+		{
+			"firm": "个人项目",
+			"job": "小型DOM类库",
+			"exp_desc": [
+				"基于学习参照jQuery源代码",
+				"构建简单的DOM操作类库"
+			]
+		},
+		{
+			"firm": "个人项目",
+			"job": "校内社团活动网站",
+			"exp_desc": [
+				"学校开发项目",
+				"主要展示社团活动事项、消息、时间、相册等信息",
+				"使用技术：原生Javascript，RequireJs",
+				"js实现相册图片轮番，requirejs实现模块化，按需加载模块，以及路由控制"
+			]
+		}
+	],
+	"skillInfos": [
+		{
+			"skill_name": "HTML5/CSS3",
+			"skill_desc": [
+				"熟悉`H5/CSS3`用法，能够编写语义化的 HTML",
+				"组件模块化的 CSS，实现较复杂的布局与动画"
+			]
+		},
+		{
+			"skill_name": "ECMAScript",
+			"skill_desc": [
+				"熟悉ECMAScript 5标准",
+				"了解`ECMAScript 6`标准",
+				"熟悉原生DOM与BOM的使用及相关W3C标准",
+				"有桌面/移动端前端组件的开发经验"
+			]
+		},
+		{
+			"skill_name": "前端工程化",
+			"skill_desc": [
+				"使用过`Grunt`以及Gulp自动化构建工具",
+				"使用过Less、`Sass`预处理工具",
+				"使用过Bootstrap和Foundation等CSS框架",
+				"使用过AngularJs和ReactJs编写SPA单页App",
+				"了解过`Backbone.js`以及`Vue.js`等Javascript框架",
+				"了解过`Ionic`、`Semantic-UI`等CSS框架"
+			]
+		},
+		{
+			"skill_name": "后端知识",
+			"skill_desc": [
+				"了解 Nodejs、`Express`、`Ejs`和MongoDB",
+				"事件轮询、数据流、中间件、`WebSocket`等概念"
+			]
+		},
+		{
+			"skill_name": "其它方面",
+			"skill_desc": [
+				"使用着 `SSH` 、`TortoiseHg` 、`github`、`xampp` 等等团队合作开发工具",
+				"使用`Jekyll`和`Markdown`搭建GitBlog",
+				"使用过Markdown来记录技术文档",
+				"日常使用Git托管项目，`SourceTree`来管理项目代码，乐于分享代码",
+				"阅读技术书、文档，牛人博客",
+				"访问各类技术社区，保持自己了解最新技术趋势",
+				"参加过一些前端技术大会、前端沙龙"
+			]
+		}
+	]
+}
