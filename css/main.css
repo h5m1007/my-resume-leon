@@ -152,5 +152,8 @@ header {
         float: left; } }
     header address ul li a {
       margin-left: 0.2em; }
+  @media screen and (max-width: 425px) {
+    header section {
+      clear: both; } }
   header section span {
     font-size: 4em; }
