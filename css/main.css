@@ -156,4 +156,5 @@ header {
     header section {
       clear: both; } }
   header section span {
-    font-size: 4em; }
+    font-size: 4em;
+    white-space: nowrap; }
