@@ -32,7 +32,7 @@ gulp.task("sass", function(){
 });
 
 gulp.task("jade", function(){
-	gulp.src("index.jade")
+	gulp.src("./jade/index.jade")
 		.pipe(
 			plugins.jade(
 				{

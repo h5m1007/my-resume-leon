@@ -1,11 +1,27 @@
 {
 	"name": "leon resume",
-	"extInfos": {
-		"fa-code": "源代码",
-		"fa-file-pdf-o": "PDF版简历",
-		"fa-github": "github",
-		"fa-book": "读书单"
-	},
+	"extInfos": [
+		{
+			"icon": "fa-code",
+			"desc": "源代码",
+			"link": "https://github.com/h5m1007/my-resume-leon"
+		},
+		{
+			"icon": "fa-file-pdf-o",
+			"desc": "PDF版简历",
+			"link": "./彭智扬_简历2016.11.11.pdf"
+		},
+		{
+			"icon": "fa-github",
+			"desc": "github",
+			"link": "https://github.com/h5m1007"
+		},
+		{
+			"icon": "fa-book",
+			"desc": "读书单",
+			"link": "https://book.douban.com/people/leon-peng/"
+		}
+	],
 	"contactInfos": {
 		"fa-envelope": "15521278180@163.com",
 		"fa-weixin": "h5m1007",
@@ -73,10 +89,8 @@
 				"Angular负责前端数据交互",
 				"Angular-ui-router负责路由控制",
 				"Foundation框架作为Css构建",
-				"Less预处理器负责Css优化及模块化",
-				"数据来源选至豆瓣Api",
-				"Hybird App，phonegap打包项目",
-				"托管至Github"
+				"Sass预处理器负责Css优化及模块化",
+				"数据来源选至豆瓣Api"
 			]
 		},
 		{
